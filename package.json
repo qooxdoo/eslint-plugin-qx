@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-qx-rules",
+  "description": "qx specific rules for eslint",
+  "version": "0.0.1",
+  "homepage": "https://github.com/drawstack/eslint-plugin-qx-rules",
+  "author": {
+    "name": "Qooxdoo Developers",
+    "email": "info@qooxdoo.org"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drawstack/eslint-plugin-qx-rules"
+  },
+  "bugs": {
+    "url": "https://github.com/drawstack/eslint-plugin-qx-rules/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/drawstack/eslint-plugin-qx-rules/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.5.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/lib/rules/",
+    "test-tap": "./node_modules/mocha/bin/mocha tests/lib/rules/ --reporter mocha-tap-reporter"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-tester": "^0.8.2",
+    "mocha": "^3.0.2",
+    "mocha-tap-reporter": "^0.1.3"
+  }
+}
