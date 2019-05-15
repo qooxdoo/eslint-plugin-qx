@@ -2,6 +2,7 @@
   "name": "@qooxdoo/eslint-qx-plugins",
   "description": "qx specific rules for eslint",
   "version": "1.0.0",
+  "license": "MIT",
   "homepage": "https://github.com/qooxdoo/eslint-qx-plugins",
   "author": {
     "name": "Qooxdoo Developers",
@@ -19,12 +20,6 @@
     "eslint",
     "eslintplugin"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/drawstack/eslint-qx-plugin/blob/master/LICENSE"
-    }
-  ],
   "engines": {
     "node": ">= 10.0.0"
   },
@@ -34,8 +29,7 @@
   },
   "devDependencies": {
     "eslint": "^3.4.0",
-    "eslint-tester": "^0.8.2",
-    "mocha": "^3.0.2",
+    "mocha": "^6.1.4",
     "mocha-tap-reporter": "^0.1.3"
   }
 }
