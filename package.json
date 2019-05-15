@@ -1,8 +1,8 @@
 {
-  "name": "@qooxdoo/eslint-plugin-rules",
+  "name": "@qooxdoo/eslint-qx-plugins",
   "description": "qx specific rules for eslint",
   "version": "1.0.0",
-  "homepage": "https://github.com/drawstack/eslint-plugin-qx-rules",
+  "homepage": "https://github.com/qooxdoo/eslint-qx-plugins",
   "author": {
     "name": "Qooxdoo Developers",
     "email": "info@qooxdoo.org"
@@ -10,10 +10,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/drawstack/eslint-plugin-qx-rules"
+    "url": "https://github.com/qooxdoo/eslint-qx-plugins.git"
   },
   "bugs": {
-    "url": "https://github.com/drawstack/eslint-plugin-qx-rules/issues"
+    "url": "https://github.com/qooxdoo/eslint-qx-plugins/issues"
   },
   "keywords": [
     "eslint",
@@ -22,11 +22,11 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/drawstack/eslint-plugin-qx-rules/blob/master/LICENSE"
+      "url": "https://github.com/drawstack/eslint-qx-plugin/blob/master/LICENSE"
     }
   ],
   "engines": {
-    "node": ">= 4.5.0"
+    "node": ">= 10.0.0"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests/lib/rules/",
