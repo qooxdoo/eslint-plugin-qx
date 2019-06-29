@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 var rule = require("../../../lib/rules/no-illegal-private-usage"),
-    RuleTester = require("../../../../eslint/lib/testers/rule-tester");
+    RuleTester = require("../../../node_modules/eslint/lib/testers/rule-tester");
 
 //------------------------------------------------------------------------------
 // Tests

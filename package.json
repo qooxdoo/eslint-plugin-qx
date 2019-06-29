@@ -24,8 +24,8 @@
     "node": ">= 10.0.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests/lib/rules/",
-    "test-tap": "./node_modules/mocha/bin/mocha tests/lib/rules/ --reporter mocha-tap-reporter"
+    "test": "npx mocha tests/lib/rules/",
+    "test-tap": "npx mocha tests/lib/rules/ --reporter mocha-tap-reporter"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
