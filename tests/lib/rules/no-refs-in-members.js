@@ -8,8 +8,8 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/no-refs-in-members"),
-    RuleTester = require("../../../node_modules/eslint/lib/testers/rule-tester");
+var rule = require("../../../lib/rules/no-refs-in-members");
+var RuleTester =  require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------
 // Tests

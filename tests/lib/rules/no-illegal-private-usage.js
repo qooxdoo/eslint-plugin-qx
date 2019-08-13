@@ -8,8 +8,8 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/no-illegal-private-usage"),
-    RuleTester = require("../../../node_modules/eslint/lib/testers/rule-tester");
+var rule = require("../../../lib/rules/no-illegal-private-usage");
+var RuleTester =  require("eslint").RuleTester;
 
 //------------------------------------------------------------------------------
 // Tests
