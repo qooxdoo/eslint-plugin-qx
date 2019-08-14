@@ -1,4 +1,4 @@
-# eslint-plugin-qx-rules
+# eslint-qx-plugins
 
 > ESLint rules for [Qooxdoo](http://www.qooxdoo.org)
 
