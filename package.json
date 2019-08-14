@@ -3,7 +3,7 @@
   "description": "qx specific rules for eslint",
   "version": "1.2.3",
   "license": "MIT",
-  "homepage": "https://github.com/qooxdoo/eslint-qx-plugins",
+  "homepage": "https://github.com/qooxdoo/eslint-plugin-qx",
   "author": {
     "name": "Qooxdoo Developers",
     "email": "info@qooxdoo.org"
@@ -11,10 +11,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qooxdoo/eslint-qx-plugins.git"
+    "url": "https://github.com/qooxdoo/eslint-plugin-qx.git"
   },
   "bugs": {
-    "url": "https://github.com/qooxdoo/eslint-qx-plugins/issues"
+    "url": "https://github.com/qooxdoo/eslint-plugin-qx/issues"
   },
   "keywords": [
     "eslint",
