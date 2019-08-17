@@ -21,7 +21,7 @@
     "eslintplugin"
   ],
   "engines": {
-    "node": ">= 10.0.0"
+    "node": ">= 8.0.0"
   },
   "scripts": {
     "test": "npx mocha tests/lib/rules/",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "eslint": "^6.1.0",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "mocha-tap-reporter": "^0.1.3"
   }
 }
