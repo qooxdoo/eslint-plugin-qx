@@ -23,3 +23,6 @@ jobs:
            
       - name: deploy
         run: .scripts/deploy_npm
+        env: 
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}            
+          GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
