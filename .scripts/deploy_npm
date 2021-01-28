@@ -15,7 +15,5 @@ GIT_URL=${GIT_URL/https:\/\//https:\/\/$GH_TOKEN@}
 exe git push $GIT_URL HEAD:master
 exe git push $GIT_URL $NEW_VERSION
 
-
-exe npm login
 exe npm ci
 exe npm publish --access public
