@@ -1,7 +1,7 @@
 {
   "name": "@qooxdoo/eslint-plugin-qx",
   "description": "qx specific rules for eslint",
-  "version": "1.2.8",
+  "version": "1.2.13",
   "license": "MIT",
   "homepage": "https://github.com/qooxdoo/eslint-plugin-qx",
   "author": {
