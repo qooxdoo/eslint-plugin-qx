@@ -1,0 +1,25 @@
+name: Build, Test and Deploy
+on:
+  # run when the master branch is updated
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
+        with:
+           node-version: 12
+           # Specifies the registry, this field is required!
+           registry-url: https://registry.npmjs.org/
+           
+      - name: deploy
+        run: .scripts/deploy_npm
