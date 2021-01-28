@@ -4,10 +4,11 @@ exe() { echo "\$ ${@/eval/}" ; "$@" ; }
 exe node -v
 exe npm -v
 
+git config --global user.email "deploy@tqooxdoo.org"
+git config --global user.name "qooxdoo deploy"
+
 NEW_VERSION=$(npm version patch -m "[ci skip] new npm version: %s")
 echo "new version: $NEW_VERSION"
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis CI"
 
 GIT_URL="$(git config remote.origin.url)"
 GIT_URL=${GIT_URL/https:\/\//https:\/\/$GH_TOKEN@}
