@@ -15,8 +15,6 @@ GIT_URL=${GIT_URL/https:\/\//https:\/\/$GH_TOKEN@}
 exe git push $GIT_URL HEAD:master
 exe git push $GIT_URL $NEW_VERSION
 
-# fill .npmrc with access token
-echo "//registry.npmjs.com/:_authToken=${NPM_TOKEN:-}" > ~/.npmrc
 
 exe npm ci
 exe npm publish --access public
