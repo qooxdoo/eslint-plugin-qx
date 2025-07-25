@@ -15,7 +15,12 @@ var RuleTester =  require("eslint").RuleTester;
 // Tests
 //------------------------------------------------------------------------------
 
-var ruleTester = new RuleTester();
+var ruleTester = new RuleTester({
+  languageOptions: {
+    ecmaVersion: 5,
+    sourceType: "script"
+  }
+});
 ruleTester.run("no-illegal-private-usage", rule, {
 
   valid: [
